@@ -18,7 +18,7 @@ function Create() {
       body:dataToSubmit
      }
   
-     let JsonData = await fetch("http://localhost:3197/updateCard",reqOptions);
+     let JsonData = await fetch("7/updateCard",reqOptions);
      let JsoData = JsonData.json();
      console.log(JsoData)
   }

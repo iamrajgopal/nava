@@ -20,7 +20,7 @@ function Update() {
             body:sendingValue
         }
 
-        let JsonData = await fetch("http://localhost:3197/dataWithValue",reqOptions);
+        let JsonData = await fetch("/dataWithValue",reqOptions);
         let JsoData = await JsonData.json();
         console.log(JsoData)
     }
@@ -29,7 +29,7 @@ function Update() {
       let reqOptions = {
         method: "GET"
       }
-       let JsonData = await fetch("http://localhost:3197/data",reqOptions);
+       let JsonData = await fetch("/data",reqOptions);
        let JsoData = await JsonData.json();
        setView(JsoData);
       }
