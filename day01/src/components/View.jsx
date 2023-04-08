@@ -9,7 +9,7 @@ function View() {
     let reqOptions = {
       method: "GET"
     }
-     let JsonData = await fetch("/data",reqOptions);
+     let JsonData = await fetch("http://localhost:3197/data",reqOptions);
      let JsoData = await JsonData.json();
      setView(JsoData);
      setPage(JsoData.slice(0,5))
