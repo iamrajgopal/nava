@@ -1,0 +1,24 @@
+.App {text-align: center;}
+
+.menubar{display: flex; flex-direction: row; background-color: rgb(164, 164, 236); height: 50px;justify-content: space-around;align-items: center;}
+
+.mainDiv{display: flex; gap: 5.9px; flex-wrap: wrap;margin:10px 5px 0px 5px;}
+
+.createDiv{display:flex;justify-content: center;align-items: center;}
+
+.cardDiv{display:flex;justify-content: center;align-items: center; flex-direction: column;border: 2px solid gray; width:300px; height: 300px; border-radius: 10px;}
+.card{width:150px;height: 150px ; object-fit: contain;}
+form{border: 2px solid gray ;display: inline-block;padding: 20px;}
+label{display: inline-block; width:100px; margin-bottom: 10px;}
+
+
+
+
+                                      /* css for pagination */                                 
+.paginationDiv{display: flex;align-items: center; justify-content: center; flex-direction: row;margin-top: 50px; }
+.pagination{border: 1px solid gray;font-size:30px; background-color: rgb(187, 187, 248);width:60px; height: 50px; text-align: center; display: flex;align-items: center; justify-content: center; border-radius: 10px;} 
+.pagination:hover{background-color: blue;} 
+
+
+
+
